@@ -43,17 +43,17 @@ const age = computed(() => {
       <ul>
         <li>Telegram:
           <a href="https://t.me/envizar" target="_blank">Аккаунт</a> &bull;
-          <a href="https://t.me/meza_inc">Канал</a>
+          <a href="https://t.me/meza_inc" target="_blank">Канал</a>
         </li>
         <li>GitHub:
-          <a href="https://github.com/envizar">Профиль</a> &bull;
-          <a href="https://github.com/mezamc">Организация</a>
+          <a href="https://github.com/envizar" target="_blank">Профиль</a> &bull;
+          <a href="https://github.com/mezamc" target="_blank">Организация</a>
         </li>
         <li>Проект:
-          <a href="https://book.meza.one">MezaBook</a>
+          <a href="https://book.meza.one" target="_blank">MezaBook</a>
         </li>
         <li>YouTube:
-          <a href="https://www.youtube.com/@envizar">Личный канал</a>
+          <a href="https://www.youtube.com/@envizar" target="_blank">Личный канал</a>
         </li>
       </ul>
     </Card>
