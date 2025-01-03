@@ -18,10 +18,11 @@ onMounted(() => {
 });
 
 const age = computed(() => {
-  const now = new Date()
-  const born = new Date(1182888000 * 1000)
-  return now.getFullYear() - born.getFullYear()
-})
+  const born = new Date(1182888000 * 1000);
+  const now = new Date();
+  const thisYearBirthday = new Date(now.getFullYear(), born.getMonth(), born.getDate());
+  return now.getFullYear() - born.getFullYear() - (now < thisYearBirthday ? 1 : 0);
+});
 </script>
 
 <template>
