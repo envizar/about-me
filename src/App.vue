@@ -43,18 +43,20 @@ const age = computed(() => {
     <Card icon="lucide:link" title="Ссылки">
       <ul>
         <li>Telegram:
-          <a href="https://t.me/envizar" target="_blank">Аккаунт</a> &bull;
-          <a href="https://t.me/meza_inc" target="_blank">Канал</a>
+          <a href="https://t.me/envizar" target="_blank">@envizar</a>
+          <span class="bull">&bull;</span>
+          <a href="https://t.me/meza_inc" target="_blank">@meza_inc</a>
         </li>
         <li>GitHub:
-          <a href="https://github.com/envizar" target="_blank">Профиль</a> &bull;
-          <a href="https://github.com/mezamc" target="_blank">Организация</a>
+          <a href="https://github.com/envizar" target="_blank">@envizar</a>
+          <span class="bull">&bull;</span>
+          <a href="https://github.com/mezamc" target="_blank">@mezamc</a>
         </li>
         <li>Проект:
           <a href="https://book.meza.one" target="_blank">MezaBook</a>
         </li>
         <li>YouTube:
-          <a href="https://www.youtube.com/@envizar" target="_blank">Личный канал</a>
+          <a href="https://www.youtube.com/@envizar" target="_blank">@envizar</a>
         </li>
       </ul>
     </Card>

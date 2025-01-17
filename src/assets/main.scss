@@ -22,10 +22,22 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+
+  .bull {
+    margin: 0 4px;
+    color: rgba(255, 255, 255, 0.35);
+  }
 }
 
 a {
   color: #ff6363;
+  text-decoration: none;
+  &:hover {
+    filter: brightness(1.4);
+  }
+  &:active {
+    filter: brightness(1.8);
+  }
 }
 
 p {
