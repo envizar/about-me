@@ -9,11 +9,11 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="flex flex-col bg-black/20 p-6.5 p-t-5 p-b-5 rounded-lg border-solid border-1 border-transparent hover:border-red-2/30 transition gap-2.5">
-    <h2 class="m-0 p-0 flex items-center gap-2.5">
+  <div class="flex flex-col bg-bg-card hover:(bg-bg-hovercard border-brand-border) p-(6.5 t-5 b-5) rounded-lg border-(solid 1 transparent) transition gap-2.5">
+    <h2 class="m-0 p-0 flex items-center gap-2.5 text-text-primary">
       <Icon :icon v-if="icon"/> {{ title }}
     </h2>
-    <div class="color-[#DBD1D1] flex flex-col gap-2.5">
+    <div class="flex flex-col gap-2.5">
       <slot/>
     </div>
   </div>
