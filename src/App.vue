@@ -28,7 +28,7 @@ const age = computed(() => {
 
 <template>
   <div class="flex flex-col gap-2 items-center justify-center mb-8 mt-16 lg:mt-0">
-    <img src="/avatar.jpg" alt="avatar" class="w-20 h-20 rounded-lg avatar">
+    <img src="/avatar.png" alt="avatar" class="w-20 h-20 rounded-lg avatar">
     <span class="text-2xl font-700 color-white font-['JetBrains_Mono',_serif]">envizar</span>
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 max-w-120 lg:w-200 lg:max-w-200">
@@ -88,7 +88,7 @@ const age = computed(() => {
 
 <style scoped lang="scss">
 .avatar {
-  box-shadow: 0 0 5rem rgba(255, 0, 0, .25);
+  box-shadow: 0 0 5rem #e78e7c44;
   z-index: 1;
   outline: solid transparent 0px;
   transition: 100ms all ease-in-out;
@@ -96,14 +96,14 @@ const age = computed(() => {
   &:hover {
     outline: solid var(--c-brand) 2px;
     outline-offset: 4px;
-    box-shadow: 0 0 5rem rgba(255, 0, 0, 0.7);
+    box-shadow: 0 0 5rem #e78e7c99;
     transform: scale(1.05);
   }
   &:active {
     transform: scale(.9);
     filter: brightness(2);
     outline-color: #ffc7c7;
-    box-shadow: 0 0 8rem rgba(255, 53, 53, 0.75);
+    box-shadow: 0 0 8rem #e78e7caa;
     outline-offset: 2px;
     cursor: grabbing;
   }
